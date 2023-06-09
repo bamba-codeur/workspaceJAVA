@@ -1,0 +1,18 @@
+package string;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		
+		String str="123";
+		str+="abc";
+		
+		StringBuilder strb=new StringBuilder("123");
+		strb.append("abc");
+		
+		String res=strb.toString();
+		
+
+	}
+
+}
